@@ -14,6 +14,10 @@
 		DC0FE0E21C834A7900D68DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0FE0E01C834A7900D68DEC /* LaunchScreen.storyboard */; };
 		DC0FE0ED1C834A7900D68DEC /* HeadsUpHoldEm_FelixS_iOSDev1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE0EC1C834A7900D68DEC /* HeadsUpHoldEm_FelixS_iOSDev1Tests.swift */; };
 		DC0FE0F81C834A7900D68DEC /* HeadsUpHoldEm_FelixS_iOSDev1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE0F71C834A7900D68DEC /* HeadsUpHoldEm_FelixS_iOSDev1UITests.swift */; };
+		DC0FE1061C8350AB00D68DEC /* Player1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE1051C8350AB00D68DEC /* Player1ViewController.swift */; };
+		DC0FE1081C8350BE00D68DEC /* Player2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE1071C8350BE00D68DEC /* Player2ViewController.swift */; };
+		DC0FE10A1C8350D100D68DEC /* HouseDealerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE1091C8350D100D68DEC /* HouseDealerViewController.swift */; };
+		DC0FE10E1C835EAD00D68DEC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FE10D1C835EAD00D68DEC /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		DC0FE0F31C834A7900D68DEC /* HeadsUpHoldEm-FelixS-iOSDev1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HeadsUpHoldEm-FelixS-iOSDev1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0FE0F71C834A7900D68DEC /* HeadsUpHoldEm_FelixS_iOSDev1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadsUpHoldEm_FelixS_iOSDev1UITests.swift; sourceTree = "<group>"; };
 		DC0FE0F91C834A7900D68DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0FE1051C8350AB00D68DEC /* Player1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player1ViewController.swift; sourceTree = "<group>"; };
+		DC0FE1071C8350BE00D68DEC /* Player2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player2ViewController.swift; sourceTree = "<group>"; };
+		DC0FE1091C8350D100D68DEC /* HouseDealerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseDealerViewController.swift; sourceTree = "<group>"; };
+		DC0FE10D1C835EAD00D68DEC /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				DC0FE0D71C834A7900D68DEC /* AppDelegate.swift */,
+				DC0FE10D1C835EAD00D68DEC /* Card.swift */,
 				DC0FE0D91C834A7900D68DEC /* ViewController.swift */,
 				DC0FE0DB1C834A7900D68DEC /* Main.storyboard */,
 				DC0FE0DE1C834A7900D68DEC /* Assets.xcassets */,
 				DC0FE0E01C834A7900D68DEC /* LaunchScreen.storyboard */,
 				DC0FE0E31C834A7900D68DEC /* Info.plist */,
+				DC0FE1051C8350AB00D68DEC /* Player1ViewController.swift */,
+				DC0FE1071C8350BE00D68DEC /* Player2ViewController.swift */,
+				DC0FE1091C8350D100D68DEC /* HouseDealerViewController.swift */,
 			);
 			path = "HeadsUpHoldEm-FelixS-iOSDev1";
 			sourceTree = "<group>";
@@ -256,7 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0FE1081C8350BE00D68DEC /* Player2ViewController.swift in Sources */,
+				DC0FE10E1C835EAD00D68DEC /* Card.swift in Sources */,
 				DC0FE0DA1C834A7900D68DEC /* ViewController.swift in Sources */,
+				DC0FE10A1C8350D100D68DEC /* HouseDealerViewController.swift in Sources */,
+				DC0FE1061C8350AB00D68DEC /* Player1ViewController.swift in Sources */,
 				DC0FE0D81C834A7900D68DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
